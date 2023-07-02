@@ -1,0 +1,289 @@
+  @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Orbitron:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Orbitron:wght@600&family=Teko:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Orbitron:wght@600&family=Signika&family=Teko:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Orbitron:wght@600&family=Roboto+Condensed&family=Signika&family=Teko:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+
+*{
+    margin: 0%;
+
+}
+.navBar{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 0px;
+}
+.list{
+    float: right;
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+font-family: 'Teko', sans-serif;
+}
+@media screen and (max-width: 900px) {
+    .list a {
+      float: none;
+      width: 100%;
+    }
+  }
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: white;
+    font-size: 32px;
+    transition-duration: 0.5s;
+}
+
+
+.infoContainer{
+    padding: 100px;
+    color: red;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+p{
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from {
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+.apply{
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from {
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+.infoContainer p{
+    
+font-family: 'Orbitron', sans-serif;
+font-size: 65px;
+}
+.apply{
+    display: inline-flex;
+    border-radius: 70px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: red;
+    color:white;
+    align-items: center;
+    border-color: black;
+    font-family: 'Orbitron', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+cursor: pointer;
+    background: linear-gradient(to left,transparent 50%, red 50%);
+    background-size: 200%;
+    background-position: right ;
+    transition: background-position 0.5s;
+}
+button:hover{
+    background-position: left;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.about{
+    text-align: center;
+    background-color: white;
+    display: flex;
+    padding: 50px;
+    gap:20px;
+    justify-content: space-around;
+}
+.head{
+    display: flex;
+    border-radius: 80px;
+    background-color: black;
+    font-family: 'Belanosima', sans-serif;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+head1{
+    font-size: 65px;
+    padding: 10px;
+    color:red;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+head2{
+    font-size: 65px;
+    padding: 10px;
+    color:red
+    ;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.i{
+    font-size: 22px;
+    padding: 50px;
+    background-color: grey;
+    text-align: start;
+    border-radius: 80px;
+    font-family: 'Exo 2', sans-serif;
+    box-shadow:5px 10px 18px red ;
+    border-color: black;
+    
+}
+.filler{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+.responsibilities{
+    background-color: black;
+    background: cover;
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    justify-content: space-around;
+}
+h1{
+    padding: 50px;
+    font-family: 'Rowdies', cursive;
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #f6f5f5;
+}
+.box{
+    background-color: black;
+    display: inline-block;
+    padding: 50px;
+    border-color: black;
+    border-radius: 30px;
+    max-width: 300px;
+    height: 260px;
+    box-shadow: 5px 10px 20px red inset
+}
+.boxContainer{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#box1{
+    float: left;
+}
+#box3{
+    float: right;
+}
+#box2{
+    margin-bottom: 30px;
+}
+.box:hover{
+    max-width: 305px;
+    height: 264px;
+    transition-duration: 0.25s;
+}
+.desHead{
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+}
+.description{
+    color: white;
+    padding-bottom: 7px;
+}
+
+
+
+
+
+
+.contact{
+    text-align: center;
+    padding: 50px;
+    color: red;
+    background-image: url('black3.webp');
+}
+.contact12{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 25px;
+}
+#contact1{
+    display: flex;
+}
+#contact2{
+    display: flex;
+}
+.contactLogos{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+
+}
+.contactInfo{
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.End{
+    padding: 60px;
+    gap:90px;
+    display: flex;
+    justify-content: center;
+}
+.ContactHead{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 60px;
+}
+.logoi:hover{
+    box-shadow:5px 10px 18px red ;
+    transition-duration: 0.15s;
+}
+
+
+
+
